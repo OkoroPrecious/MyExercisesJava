@@ -23,6 +23,11 @@ public class RemovingDuplicatedCodeInMethodMain {
         account1.displayAccount(account1);
         account2.displayAccount(account2);
 
+        account1.withdraw(20);
+        account2.withdraw(20);
+
+        account1.displayAccount(account1);
+        account2.displayAccount(account2);
     }
 
 
