@@ -1,4 +1,4 @@
-package OOP_ChapterNine;
+package OOP_Ch9_Inheritance;
 
 public class Person_Superclass {
     private String complexion;

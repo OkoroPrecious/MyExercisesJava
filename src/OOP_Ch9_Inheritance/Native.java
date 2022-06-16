@@ -1,4 +1,4 @@
-package OOP_ChapterNine;
+package OOP_Ch9_Inheritance;
 
     public class Native extends Person_Superclass{
         private  int nativeId;

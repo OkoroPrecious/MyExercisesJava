@@ -1,4 +1,4 @@
-package OOP_ChapterNine;
+package OOP_Ch9_Inheritance;
 
 public class Facilitator extends Person_Superclass{
     private int facilitatorId;
