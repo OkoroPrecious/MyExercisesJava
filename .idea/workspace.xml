@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb40481-3989-4f52-8c83-2d6c894c5b91" name="Changes" comment="Java">
+      <change afterPath="$PROJECT_DIR$/src/Diary/Diary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Diary/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Diary/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/EletronicManagementRecord/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SchoolManagementSystem_OOP_Composition/School.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/SchoolManagementSystem_OOP_Composition/SchoolManagementSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SchoolManagementSystem_OOP_Composition/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/String_charAt.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TurtleGraphics/Direction.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TurtleGraphics/Turtle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/EletronicManagementRecord/TestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SchoolManagementSystem_OOP_Composition/SchoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SchoolManagementSystem_OOP_Composition/StudentTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/TurtleGraphics/TurtleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deitelExercisesJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/deitelExercisesJava.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SchoolManagementSystem_OOP_Composition/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SchoolManagementSystem_OOP_Composition/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SchoolManagementSystem_OOP_Composition/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SchoolManagementSystem_OOP_Composition/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/SchoolManagementSystem_OOP_Composition/CourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/SchoolManagementSystem_OOP_Composition/CourseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SchoolManagementSystem_OOP_Composition/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/SchoolManagementSystem_OOP_Composition/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -202,7 +201,8 @@
       <workItem from="1655281917923" duration="731000" />
       <workItem from="1655282678896" duration="104000" />
       <workItem from="1655283896040" duration="13862000" />
-      <workItem from="1655558793050" duration="49229000" />
+      <workItem from="1655558793050" duration="53859000" />
+      <workItem from="1656284864350" duration="3799000" />
     </task>
     <task id="LOCAL-00001" summary="Solving Java Deitel Exercises">
       <created>1653527958299</created>
@@ -253,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655345776422</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Java">
+      <created>1655851067498</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655851067498</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -15,6 +15,7 @@ class CourseTest {
 
     @Test
     void testThatCourseNameIsSet(){
+
         assertEquals("Theology",course.getCourseName());
     }
     @Test

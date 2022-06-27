@@ -12,7 +12,7 @@ class StudentTest {
     @BeforeEach
     void setUp() {
         course = new Course("Physics", "Phy101");
-        studentOne = new Student("Okoro", "Precious", 1122, course);
+        studentOne = new Student("Okoro", "Precious", 1122, course, "female");
     }
 
     @Test
