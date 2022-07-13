@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class ComputerizationOfHealthRecords {
     public static void main(String[] args) {
-        HealthRecord profile = new HealthRecord(null, null, null, null, 1, 1, 1,0,0.0);
+        HealthRecord profile = new HealthRecord(null, null, null, null, 1,
+                1, 1,0,0.0);
         Scanner keyboardInput = new Scanner(System.in);
 
         System.out.println("Whats your first name?: ");
@@ -36,7 +37,7 @@ public class ComputerizationOfHealthRecords {
         Double userWeightInPounds  = keyboardInput.nextDouble();
         profile.setWeightInPounds(userWeightInPounds);
 
-        System.out.println(calculateAge(birthYear));
+        System.out.printf("Your Age: %s%n", calculateAge(birthYear));
         calculateTargetHeartRate(birthYear);
         calculateBodyMassIndex(userHeightInInches, userWeightInPounds);
     }

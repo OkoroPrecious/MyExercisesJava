@@ -3,8 +3,8 @@ package chapterTwo;
 import java.util.Scanner;
 
 public class TwoInteger {
-        public static void main(String[] args){
-               Scanner input = new Scanner(System.in);
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
 
             System.out.print("Enter first integer: " );
             int x = input.nextInt();
@@ -22,15 +22,7 @@ public class TwoInteger {
             System.out.printf("\nsum is %d", sum);
             System.out.printf("\ndifference is %d", difference);
 
-
-
-
-
-
-
-
-
-        }
     }
+}
 
 

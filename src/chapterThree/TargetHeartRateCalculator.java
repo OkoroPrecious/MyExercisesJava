@@ -1,58 +1,81 @@
 package chapterThree;
 
 import java.time.LocalDate;
-import java.util.Scanner;
 
 public class TargetHeartRateCalculator {
-    public static void main(String[] args) {
+    private String firstName;
+    private String lastName;
+    private LocalDate dob;
+    private Integer birthYear;
+    private Integer birthMonth;
+    private Integer birthDay;
 
-        HeartRates profile = new HeartRates(null,null,null, 1, 1,1);
-        Scanner keyboardInput = new Scanner(System.in);
-        System.out.println("Whats your first name?: ");
-        String firstName = keyboardInput.nextLine();
-        profile.setFirstName(firstName);
 
-        System.out.print("Whats your last name?: ");
-        String lastName = keyboardInput.nextLine();
-        profile.setLastName(lastName);
-
-        System.out.print("What year were you born?: ");
-        Integer birthYear = keyboardInput.nextInt();
-        profile.setBirthYear(birthYear);
-
-        System.out.print("What month were you born?: ");
-        Integer birthMonth = keyboardInput.nextInt();
-        profile.setBirthMonth(birthMonth);
-
-        System.out.print("What day were you born?: ");
-        Integer birthDay = keyboardInput.nextInt();
-        profile.setBirthDay(birthDay);
-
-        System.out.print(profile);
-        System.out.println(calculateAge(birthYear));
-        System.out.println(calculateMaximumHeartRate(birthYear));
-        calculateTargetHeartRate(birthYear);
-
+    public TargetHeartRateCalculator(String firstName, String lastName, LocalDate dob, Integer birthYear, Integer birthMonth, Integer birthDay) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        dob = LocalDate.of(birthYear, birthMonth, birthDay);
+        this.birthYear = birthYear;
+        this.birthMonth = birthMonth;
+        this.birthDay = birthDay;
     }
 
-    private static void calculateTargetHeartRate(Integer birthYear) {
-        LocalDate currentTime = LocalDate.now();
-        Integer age = currentTime.getYear() - birthYear;
-        Integer maxHeartRate = 220 - age;
-        double maxHeartRateLow = 0.5 * maxHeartRate;
-        double maxHeartRateHigh = 0.85 * maxHeartRate;
-        System.out.printf("Your maximum heart rate is between %.2f and %.2f", maxHeartRateLow, maxHeartRateHigh);
+    public String getFirstName() {
+        return firstName;
     }
 
-    private static Integer calculateMaximumHeartRate(Integer birthYear) {
-        LocalDate currentTime = LocalDate.now();
-        Integer age = currentTime.getYear() - birthYear;
-        return 220 - age;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    private static Integer calculateAge(Integer birthYear) {
-        LocalDate currentTime = LocalDate.now();
-        Integer age = currentTime.getYear() - birthYear;
-        return age;
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public LocalDate getDob() {
+        return dob;
+    }
+
+    public void setDob(LocalDate dob) {
+        this.dob = dob;
+    }
+
+    public Integer getBirthYear() {
+        return birthYear;
+    }
+
+    public void setBirthYear(Integer birthYear) {
+        this.birthYear = birthYear;
+    }
+
+    public Integer getBirthMonth() {
+        return birthMonth;
+    }
+
+    public void setBirthMonth(Integer birthMonth) {
+        this.birthMonth = birthMonth;
+    }
+
+    public Integer getBirthDay() {
+        return birthDay;
+    }
+
+    public void setBirthDay(Integer birthDay) {
+        this.birthDay = birthDay;
+    }
+
+    @Override
+    public String toString() {
+        return "HeartRates{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", birthYear='" + birthYear + '\'' +
+                ", birthMonth='" + birthMonth + '\'' +
+                ", birthDay='" + birthDay + '\'' +
+                '}';
     }
 }

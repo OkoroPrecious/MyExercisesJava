@@ -5,6 +5,7 @@ public class Car {
     private String model;
     private String year;
     private double price;
+    private double percentageDiscount;
 
 
     public Car(String model, String year, double price) {
@@ -16,30 +17,38 @@ public class Car {
         }
     }
 
-    public String getModel() {
-        return model;
-    }
-
     public void setModel(String model) {
         this.model = model;
     }
-
-    public String getYear() {
-        return year;
+    public String getModel() {
+        return model;
     }
 
     public void setYear(String year) {
         this.year = year;
     }
-
-    public double getPrice() {
-        return price;
+    public String getYear() {
+        return year;
     }
 
     public void setPrice(double price) {
         this.price = price;
     }
+    public double getPrice() {
+        return price;
+    }
 
+    public void setPercentageDiscount(double percentageDiscount) {
+        this.percentageDiscount = percentageDiscount;
+    }
+    public double getPercentageDiscount() {
+        return percentageDiscount;
+    }
+    public double getActualPrice() {
+        double ActualPrice;
+        ActualPrice = getPrice() - (getPrice() * (getPercentageDiscount() / 100));
+        return ActualPrice;
+    }
 
 }
 

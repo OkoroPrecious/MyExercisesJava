@@ -34,21 +34,11 @@ public class ThreeIntegers {
         if(num3 >= largest)
             largest = num3;
 
-
         System.out.printf("sum of the three integers is %d%n ", sum );
         System.out.printf("product of the three integers is %d%n ", product );
         System.out.printf("average of the integers is %d%n ", average );
         System.out.printf("smallest number of the three integers is %d%n ", smallest );
         System.out.printf("largest number of the three integers is %d%n ", largest );
-
-
-
-
-
-
-
-
-
 
     }
 }

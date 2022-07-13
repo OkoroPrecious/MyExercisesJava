@@ -2,7 +2,7 @@ package chapterThree;
 
 import java.util.Scanner;
 
-public class RemovingDuplicatedCodeInMethodMain {
+public class AccountRemovingDuplicatedCodeInMethodMain {
     public static void main(String[] args) {
         Account account1 = new Account("Jane Green", 50.00);
         Account account2 = new Account("John Blue", -7.53);
@@ -16,7 +16,7 @@ public class RemovingDuplicatedCodeInMethodMain {
         double depositAmount1 = input.nextDouble();
         double depositAmount2 = input.nextDouble();
 
-        System.out.printf("%nadding %.2f %.2f to account balance %n%n", depositAmount1, depositAmount2);
+        System.out.printf("\nadding %.2f %.2f to account balance %n%n", depositAmount1, depositAmount2);
         account1.deposit(depositAmount1);
         account2.deposit(depositAmount2);
 

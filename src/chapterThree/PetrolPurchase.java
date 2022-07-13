@@ -9,7 +9,8 @@ public class PetrolPurchase {
     private double percentageDiscount;
 
 
-    public PetrolPurchase(String stationLocation, String petrolType, int purchaseQuantity, double pricePerLiter, double percentageDiscount) {
+    public PetrolPurchase(String stationLocation, String petrolType, int purchaseQuantity,
+                          double pricePerLiter, double percentageDiscount) {
         this.stationLocation = stationLocation;
         this.petrolType = petrolType;
         this.purchaseQuantity = purchaseQuantity;
@@ -54,22 +55,15 @@ public class PetrolPurchase {
     }
 
     public void setPercentageDiscount(double percentageDiscount) {
-        this.percentageDiscount = percentageDiscount/100;
+
+        this.percentageDiscount = percentageDiscount / 100;
     }
 
-    public double getPurchaseAmount(int purchaseAmount){
+    public  double getPurchaseAmount() {
         double discountPricePerLiter = pricePerLiter - (pricePerLiter * percentageDiscount);
         return discountPricePerLiter * purchaseQuantity;
     }
 
-    @Override
-    public String toString() {
-        return "PetrolPurchase{" +
-                "stationLocation='" + stationLocation + '\'' +
-                ", petrolType='" + petrolType + '\'' +
-                ", purchaseQuantity=" + purchaseQuantity +
-                ", pricePerLiter=" + pricePerLiter +
-                ", percentageDiscount=" + percentageDiscount +
-                '}';
-    }
+
 }
+
