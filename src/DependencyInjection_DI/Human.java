@@ -1,6 +1,7 @@
-package Di;
+package DependencyInjection_DI;
 
-public class Human {
+public class Human implements Walk {
+
     private Walk walkInPidgin;
 
     //constructor

@@ -1,4 +1,4 @@
-package Di;
+package DependencyInjection_DI;
 
 public interface Walk {
 
