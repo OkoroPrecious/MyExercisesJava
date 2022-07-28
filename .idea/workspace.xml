@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bb40481-3989-4f52-8c83-2d6c894c5b91" name="Changes" comment="Java">
-      <change afterPath="$PROJECT_DIR$/src/DataStructureAlgorithm/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TIC_TAC_TOE/TIC_TAC_TOE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Account/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BankTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DataStructureAlgorithm/QueueTest.java" afterDir="false" />
+    <list default="true" id="6bb40481-3989-4f52-8c83-2d6c894c5b91" name="Changes" comment="New Code">
+      <change afterPath="$PROJECT_DIR$/src/DataStructureAlgorithm/DataStructureAlgorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersonalStudy/Rand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TIC_TAC_TOE/TIC_TAC_TOE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TIC_TAC_TOE/TicTac.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +48,10 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "last_directory_selection": "C:/Users/user/IdeaProjects/deitelExercisesJava/src/DataStructureAlgorithm",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/deitelExercisesJava/src/OOP_Ch9_Inheritance",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/deitelExercisesJava/src/TicTacToe",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.editor.code.editing"
   }
@@ -86,7 +83,66 @@
       <recent name="chapterFive" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.tiC">
+  <component name="RunManager" selected="Application.TIC_TAC_TOE">
+    <configuration name="TIC_TAC_TOE" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TIC_TAC_TOE.TIC_TAC_TOE" />
+      <module name="deitelExercisesJava" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIRS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TIC_TAC_TOE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TIC_TAC_TOE.TicTac (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TIC_TAC_TOE.TicTac" />
+      <module name="deitelExercisesJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TIC_TAC_TOE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TIC_TAC_TOE.TicTac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Zulu/zulu-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TIC_TAC_TOE.TicTac" />
+      <module name="deitelExercisesJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TIC_TAC_TOE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicTac" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TIC_TAC_TOE.TicTac" />
+      <module name="deitelExercisesJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TIC_TAC_TOE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tiC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Diary.tiC" />
       <module name="deitelExercisesJava" />
@@ -116,61 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.peekElementCanBeTested" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="deitelExercisesJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataStructureAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DataStructureAlgorithm" />
-      <option name="MAIN_CLASS_NAME" value="DataStructureAlgorithm.StackTest" />
-      <option name="METHOD_NAME" value="peekElementCanBeTested" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest.popElementCanBeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="deitelExercisesJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataStructureAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DataStructureAlgorithm" />
-      <option name="MAIN_CLASS_NAME" value="DataStructureAlgorithm.StackTest" />
-      <option name="METHOD_NAME" value="popElementCanBeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest.searchElementCanBeTested" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="deitelExercisesJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataStructureAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DataStructureAlgorithm" />
-      <option name="MAIN_CLASS_NAME" value="DataStructureAlgorithm.StackTest" />
-      <option name="METHOD_NAME" value="searchElementCanBeTested" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TIC_TAC_TOE.TicTac (1)" />
+        <item itemvalue="Application.TIC_TAC_TOE.TicTac" />
         <item itemvalue="Application.tiC" />
         <item itemvalue="JUnit.QueueTest.testThatQueueIsEmpty" />
-        <item itemvalue="JUnit.StackTest.searchElementCanBeTested" />
-        <item itemvalue="JUnit.StackTest.peekElementCanBeTested" />
-        <item itemvalue="JUnit.StackTest.popElementCanBeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +211,13 @@
       <workItem from="1656920453852" duration="9916000" />
       <workItem from="1656998820491" duration="464000" />
       <workItem from="1657010583828" duration="25739000" />
+      <workItem from="1659011280089" duration="198000" />
+      <workItem from="1659011505021" duration="173000" />
+      <workItem from="1659011702420" duration="47000" />
+      <workItem from="1659011753499" duration="129000" />
+      <workItem from="1659012406562" duration="298000" />
+      <workItem from="1659012739896" duration="190000" />
+      <workItem from="1659014420313" duration="199000" />
     </task>
     <task id="LOCAL-00001" summary="Solving Java Deitel Exercises">
       <created>1653527958299</created>
@@ -302,7 +316,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Solving Java Deitel Exercises" />
     <MESSAGE value="Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java" />
+    <MESSAGE value="New Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
