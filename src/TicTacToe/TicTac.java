@@ -1,6 +1,8 @@
- import java.util.Scanner;
+package TicTacToe;
 
-    public class TicTac {
+import java.util.Scanner;
+
+public class TicTac {
         public static Scanner input = new Scanner(System.in);
 
         public static void main(String[] args) {
